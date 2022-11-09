@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #C7DFDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+main {
+    width: 70%;
+    height: 93%;
+    box-shadow: 25px 25px 15px #92C4D2;
+    background-color: #E5F5F5;
+    border-right: #72a3d1 1px solid;
+    border-bottom: #72a3d1 1px solid;
+    z-index: 1;
+}
+
+main .mainheader {
+    width: 100%;
+    height: 11%;
+    background-color: #DAE8E8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+main .mainheader .content-profile {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+main .mainheader p {
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: rgba(34, 33, 33, 0.993);
+    font-family: sans-serif;
+}
+
+main .mainheader .input-header {
+    display: flex;
+    align-items: center;
+    padding: 0 1px;
+    border-radius: 30px;
+    max-width: 250px;
+    height: 30px;
+}
+
+main .mainheader input {
+    background-color:transparent;
+    border: 0;
+    outline: none;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+main .mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 89%;
+    width: 100%;
+}
+main .mainbox .container {
+    display: flex;  
+    width: 90%;
+    height: 90%;
+    gap: 10px;
+}
+
+/* Aside configurações*/
+
+aside {
+    background: linear-gradient(#01C8E7,#04DEA2);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 25px 25px 15px #92C4D2;
+    width: 7%;
+    height: 93%;
+    border-bottom: #72a3d1 1px solid;
+}
+
+aside .container {
+    height: 100%;
+    width: 100%;
+}
+
+aside .container .header {
+    width: 100%;
+    height: 11%;
+    background-color: rgba(0, 0, 0, 0.068);
+}
+
+aside .container .header .menu{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* conteúdo do meio */
+
+aside .container .content-menu {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 89%;
+}
+
+aside .container .content-menu div {
+    height: 10%;
+}
+aside .container .content-menu div img {
+    max-height: 30px;
+}
+
+
+
+/* primeira coluna*/
+
+main .mainbox .container .column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+main .mainbox .container .column .box {
+    background-color: white;
+    width: 100%;
+    height: 35%;
+}
+
+main .mainbox .container .column .box1 {
+    height: calc(100% - 25%);
+}
+
+
+/* segunda coluna*/
+
+main .mainbox .container .column2 {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 10px;
+}
+
+main .mainbox .container .column2 .column2-box {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: calc(100%/2.2 + 8px);
+}
+
+main .mainbox .container .column2 .column2-box .box {
+    background-color: white;
+    height: 100%;
+    width: 50%;
+}
+
+main .mainbox .container .column2 .column2-box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+}
+main .mainbox .container .column2 .column2-box1 .box {
+    background-color: white;
+    width: 100%;
+    height: 50%;
+}
+
+
+
+/* terceira coluna*/
+
+main .mainbox .container .column3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+main .mainbox .container .column3 .column-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+}
+
+main .mainbox .container .column3 .column-box .box {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+main .mainbox .container .column3 .column-box1 {
+    background-color: white;
+    width: 100%;
+    height: 35%;
+    
+}
+
+
+
+
+
+
+
